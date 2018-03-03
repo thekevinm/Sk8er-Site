@@ -1,0 +1,332 @@
+body {
+	box-sizing: border-box;
+	background-image: url(assets/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+::placeholder {
+	color:silver;
+	font-size: 15px;
+	font-family: Arial;
+}
+
+div {
+	font-family: Arial;
+}
+
+#contact {
+	display: flex;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: -20px;
+	background:white;
+	box-shadow: 5px 3px grey;
+}
+
+#contact div {
+	width:50%;
+}
+
+#info {
+	display: flex;
+	flex-direction:column;
+	padding-top: 20px;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background:white;
+}
+
+#wrapper {
+	width:1000px;
+	margin:auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:transparent;
+}
+
+.pcontact{
+	color: #616A6B;
+}
+
+input, textarea {
+	text-indent: 4px;
+	outline-color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid grey;
+}
+
+button img {
+	width: 15px;
+	padding-top: 2px;
+}
+
+button {
+	width: 30px;
+}
+
+#submit {
+	width: 100px;
+	background-color: #d60a07;
+	color: white;
+	border:1px solid grey;
+	outline-color: grey
+}
+
+#boards {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom:30px;
+	background: white;
+	box-shadow: 5px 3px grey;
+}
+
+.float div {
+	float:left;
+	height:200px;
+}
+
+.lance, .rodney, .tommy, .steve {
+	font-weight: bold;
+	color:red;
+	font-size: 50px;
+	text-align: center;
+  	background:black;
+  	color:white;
+  	line-height:50px;
+  	text-align: center;
+  	border:5px solid white;
+  	box-shadow: 5px 3px grey;
+
+}
+
+.float .lance {
+	background-image: url(assets/sk8er-4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:33%;
+	margin-right:1.5%;
+}
+
+.float .rodney {
+	background-image: url(assets/sk8er-3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 32%;
+	margin-right:1.5%;
+}
+
+.float .tommy {
+	background-image: url(assets/sk8er-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	width:32%;
+}
+
+.float .steve {
+	background-image: url(assets/sk8er-1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:66.5%;
+	margin-top:-100px;
+}
+
+.float {
+	margin-bottom: 30px;
+	width:100%;
+	overflow:auto;
+	background:transparent;
+}
+
+.float div:nth-child(3) {
+  line-height:200px;
+  height: 420px;
+}
+
+.float div:nth-child(4) {
+  clear:left;
+  margin-top:-200px;
+}
+
+date {
+	color:silver;
+}
+
+#pstory {
+	color:grey;
+}
+
+#readmore {
+	color: #d60a07;
+}
+
+#stories {
+	display:flex;
+	justify-content: space-evenly;
+	margin-bottom: 30px;	
+}
+
+#story1, #story2, #story3 {
+	padding-left: 10px;
+	margin-right: 10px;
+	background:white;
+	padding-right: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#topimg {
+	background-image: url(assets/top-image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left-center;
+	border:10px solid white;
+	width: 99.5%;
+	margin-bottom: 30px;
+	height:300px;
+	position:relative;
+	box-shadow: 5px 3px grey;
+}
+
+#grid {
+	height:280px;
+	width: 933px;
+	opacity: .3;
+}
+
+#logo {
+	height: 175px;
+	position:absolute;
+	top:58px; left:30px;
+}
+
+#directory {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+	justify-content: space-evenly;
+}
+
+#sk8news {
+	background: #d60a07;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#sk8boards {
+	background: #d60a07;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#boarddesign {
+	background:#d60a07;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#boarddesign {
+	background:#d60a07;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#us {
+	background:#d60a07;
+	color:white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 3px grey;
+}
+
+#subicons {
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 30px;
+}
+
+#gudfbicon {
+	margin-right: 5px;
+	opacity: .8;
+}
+
+#gudrssicon {
+	margin-right: 5px;
+	opacity: .8;
+}
+
+#gudtwitter {
+	margin-right: 5px;
+	opacity: .8;
+}
+
+#gudutube {
+	opacity: .8;
+}
+
+#sub {
+	margin-right: 70px;
+	color: white;
+}
+
+#locator { 
+	position: absolute;
+	visibility: visible; 
+	left: 140px; 
+	top: 885px; 
+	height: 60px; 
+	width: 175px; 
+	z-index: 200;
+	background-color: #d60a07; 
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}
+
+#triangle {
+	position: absolute;
+	visibility: visible;
+	left: 314px;
+	top: 885px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 0 30px 20px;
+	border-color: transparent transparent transparent #d60a07;
+}
+
+#boarders {
+	font-weight: bold;
+}
+
